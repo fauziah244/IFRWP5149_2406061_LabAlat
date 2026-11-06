@@ -1,0 +1,128 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="U9CbHOxYvn7VHkCCSAD9">
+    <mxGraphModel dx="1382" dy="1664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-1" parent="1" style="swimlane;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="1460" width="240" x="150" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-12" edge="1" parent="BO_BUpLXfrp-pr8Q9s0d-1" source="BO_BUpLXfrp-pr8Q9s0d-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="BO_BUpLXfrp-pr8Q9s0d-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-10" parent="BO_BUpLXfrp-pr8Q9s0d-1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="45" x="97.5" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-11" parent="BO_BUpLXfrp-pr8Q9s0d-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Menyerahkan peralatan yang dipinjam&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="170" x="35" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Sistem" vertex="1">
+          <mxGeometry height="1460" width="330" x="390" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-42" edge="1" parent="BO_BUpLXfrp-pr8Q9s0d-2" source="BO_BUpLXfrp-pr8Q9s0d-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="BO_BUpLXfrp-pr8Q9s0d-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-44" connectable="0" parent="BO_BUpLXfrp-pr8Q9s0d-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="[baik dan lengkap]" vertex="1">
+          <mxGeometry relative="1" x="-0.4815" y="-5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-38" parent="BO_BUpLXfrp-pr8Q9s0d-2" style="rhombus;" value="Kondisi peralatan baik &#xa;dan lengkap?" vertex="1">
+          <mxGeometry height="115" width="160" x="110" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-48" edge="1" parent="BO_BUpLXfrp-pr8Q9s0d-2" source="BO_BUpLXfrp-pr8Q9s0d-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="BO_BUpLXfrp-pr8Q9s0d-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-41" parent="BO_BUpLXfrp-pr8Q9s0d-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Perbarui status peralatan menjadi tersedia&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="230" x="75" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-51" edge="1" parent="BO_BUpLXfrp-pr8Q9s0d-2" source="BO_BUpLXfrp-pr8Q9s0d-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="BO_BUpLXfrp-pr8Q9s0d-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-46" parent="BO_BUpLXfrp-pr8Q9s0d-2" style="rhombus;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="160" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-53" edge="1" parent="BO_BUpLXfrp-pr8Q9s0d-2" source="BO_BUpLXfrp-pr8Q9s0d-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="BO_BUpLXfrp-pr8Q9s0d-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-50" parent="BO_BUpLXfrp-pr8Q9s0d-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Menutup transaksi peminjaman&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="230" x="75" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-52" parent="BO_BUpLXfrp-pr8Q9s0d-2" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="175" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-60" edge="1" parent="BO_BUpLXfrp-pr8Q9s0d-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="BO_BUpLXfrp-pr8Q9s0d-38">
+          <mxGeometry relative="1" x="-0.4191" as="geometry">
+            <mxPoint x="189.5" y="620" as="sourcePoint" />
+            <mxPoint x="189.5" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Vertical Container" vertex="1">
+          <mxGeometry height="1460" width="410" x="720" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-13" parent="BO_BUpLXfrp-pr8Q9s0d-3" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Cara Pengembalian Peralatan&lt;div&gt;(LAB-UC11)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="130" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-20" parent="BO_BUpLXfrp-pr8Q9s0d-3" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=strokeColor;direction=south;" value="" vertex="1">
+          <mxGeometry height="5" width="260" x="85" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-21" edge="1" parent="BO_BUpLXfrp-pr8Q9s0d-3" source="BO_BUpLXfrp-pr8Q9s0d-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.48;entryY=0.502;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="BO_BUpLXfrp-pr8Q9s0d-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-22" parent="BO_BUpLXfrp-pr8Q9s0d-3" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Periksa Kondisi Peralatan (dari LAB-UC12): kondisi fisik" vertex="1">
+          <mxGeometry height="60" width="135" x="60" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-23" parent="BO_BUpLXfrp-pr8Q9s0d-3" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Periksa kelengkapan aksesori peralatan (unsur proses baru)" vertex="1">
+          <mxGeometry height="60" width="135" x="240" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-26" edge="1" parent="BO_BUpLXfrp-pr8Q9s0d-3" source="BO_BUpLXfrp-pr8Q9s0d-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="BO_BUpLXfrp-pr8Q9s0d-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-29" parent="BO_BUpLXfrp-pr8Q9s0d-3" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=strokeColor;direction=north;" value="" vertex="1">
+          <mxGeometry height="5" width="600" x="-200" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-40" parent="BO_BUpLXfrp-pr8Q9s0d-3" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Catat kerusakan atau kekurangan dan jadwalkan perbaikan&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="230" x="100" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-55" edge="1" parent="BO_BUpLXfrp-pr8Q9s0d-3" source="BO_BUpLXfrp-pr8Q9s0d-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.6;exitY=0.838;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;exitPerimeter=0;" target="BO_BUpLXfrp-pr8Q9s0d-22">
+          <mxGeometry relative="1" x="-0.2593" as="geometry">
+            <mxPoint x="130" y="368" as="sourcePoint" />
+            <mxPoint x="130" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-56" edge="1" parent="BO_BUpLXfrp-pr8Q9s0d-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="BO_BUpLXfrp-pr8Q9s0d-23">
+          <mxGeometry relative="1" x="-0.2" as="geometry">
+            <mxPoint x="307" y="373" as="sourcePoint" />
+            <mxPoint x="307" y="443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-57" edge="1" parent="BO_BUpLXfrp-pr8Q9s0d-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.6;entryY=0.55;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;entryPerimeter=0;" target="BO_BUpLXfrp-pr8Q9s0d-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="520" as="sourcePoint" />
+            <mxPoint x="130" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-59" edge="1" parent="BO_BUpLXfrp-pr8Q9s0d-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.8;entryY=0.85;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;entryPerimeter=0;" target="BO_BUpLXfrp-pr8Q9s0d-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="520" as="sourcePoint" />
+            <mxPoint x="310" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-14" edge="1" parent="1" source="BO_BUpLXfrp-pr8Q9s0d-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="BO_BUpLXfrp-pr8Q9s0d-13">
+          <mxGeometry relative="1" x="-0.0129" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-43" edge="1" parent="1" source="BO_BUpLXfrp-pr8Q9s0d-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="BO_BUpLXfrp-pr8Q9s0d-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-45" connectable="0" parent="BO_BUpLXfrp-pr8Q9s0d-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="[rusak atau tidak lengkap]" vertex="1">
+          <mxGeometry relative="1" x="-0.311" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BO_BUpLXfrp-pr8Q9s0d-49" edge="1" parent="1" source="BO_BUpLXfrp-pr8Q9s0d-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="BO_BUpLXfrp-pr8Q9s0d-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
