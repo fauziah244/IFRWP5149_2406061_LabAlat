@@ -1,0 +1,85 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="bmP5K9NvITgJz1O09O-j">
+    <mxGraphModel dx="1321" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pool_sia1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=0;horizontalStack=1;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="720" width="760" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_mhs_s1" parent="pool_sia1" style="swimlane;html=1;startSize=25;horizontal=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="720" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="init_s1" parent="lane_mhs_s1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="135" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d8QBflDVqx8Ajirt4n4R-1" edge="1" parent="lane_mhs_s1" source="act_s1_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="act_s1_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s1_1" parent="lane_mhs_s1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Membuka menu Pengajuan KRS" vertex="1">
+          <mxGeometry height="50" width="170" x="65" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s1_2" parent="lane_mhs_s1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Memilih mata kuliah yang diambil" vertex="1">
+          <mxGeometry height="50" width="170" x="65" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s1_3" parent="lane_mhs_s1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Mengirim pengajuan KRS" vertex="1">
+          <mxGeometry height="50" width="170" x="65" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="es1_1" edge="1" parent="lane_mhs_s1" source="init_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="act_s1_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es1_4" edge="1" parent="lane_mhs_s1" source="act_s1_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="act_s1_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_sis_s1" parent="pool_sia1" style="swimlane;html=1;startSize=25;horizontal=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="Sistem" vertex="1">
+          <mxGeometry height="720" width="460" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s1_4" parent="lane_sis_s1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Menampilkan daftar mata kuliah semester aktif" vertex="1">
+          <mxGeometry height="50" width="170" x="145" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s1_5" parent="lane_sis_s1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Memeriksa batas maksimal SKS dan prasyarat" vertex="1">
+          <mxGeometry height="50" width="170" x="145" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_s1" parent="lane_sis_s1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="SKS &amp; prasyarat&#xa;memenuhi?" vertex="1">
+          <mxGeometry height="70" width="110" x="175" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s1_ok" parent="lane_sis_s1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Menyimpan KRS dengan status Menunggu Persetujuan" vertex="1">
+          <mxGeometry height="55" width="170" x="30" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s1_no" parent="lane_sis_s1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Menampilkan pesan batas SKS atau prasyarat tidak terpenuhi" vertex="1">
+          <mxGeometry height="55" width="175" x="255" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="merge_s1" parent="lane_sis_s1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="210" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="final_s1" parent="lane_sis_s1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="215" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="es1_6" edge="1" parent="lane_sis_s1" source="act_s1_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="dec_s1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es1_7" edge="1" parent="lane_sis_s1" source="dec_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;fontStyle=1;" target="act_s1_ok" value="[memenuhi]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es1_8" edge="1" parent="lane_sis_s1" source="dec_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;fontStyle=1;" target="act_s1_no" value="[tidak memenuhi]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es1_9" edge="1" parent="lane_sis_s1" source="act_s1_ok" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="merge_s1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es1_10" edge="1" parent="lane_sis_s1" source="act_s1_no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="merge_s1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es1_11" edge="1" parent="lane_sis_s1" source="merge_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="final_s1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es1_2" edge="1" parent="pool_sia1" source="act_s1_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="act_s1_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es1_5" edge="1" parent="pool_sia1" source="act_s1_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="act_s1_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

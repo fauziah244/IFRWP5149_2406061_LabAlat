@@ -1,0 +1,79 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="_aT4hZm-bq6_2Yeypmct">
+    <mxGraphModel dx="1082" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pool_sia3" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=0;horizontalStack=1;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="720" width="760" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_admin_s3" parent="pool_sia3" style="swimlane;html=1;startSize=25;horizontal=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="Admin Akademik" vertex="1">
+          <mxGeometry height="720" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="init_s3" parent="lane_admin_s3" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="135" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UBxREfVD0Apdrd3sfE0k-1" edge="1" parent="lane_admin_s3" source="act_s3_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="act_s3_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s3_1" parent="lane_admin_s3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Membuka menu Kelola Jadwal Perkuliahan" vertex="1">
+          <mxGeometry height="50" width="170" x="65" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s3_2" parent="lane_admin_s3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Mengisi mata kuliah, dosen pengampu, ruang, dan waktu" vertex="1">
+          <mxGeometry height="55" width="170" x="65" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="es3_1" edge="1" parent="lane_admin_s3" source="init_s3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="act_s3_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_sis_s3" parent="pool_sia3" style="swimlane;html=1;startSize=25;horizontal=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="Sistem" vertex="1">
+          <mxGeometry height="720" width="460" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s3_3" parent="lane_sis_s3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Menampilkan formulir penjadwalan kelas" vertex="1">
+          <mxGeometry height="50" width="170" x="145" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s3_4" parent="lane_sis_s3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Memeriksa bentrok ruang dan jadwal dosen" vertex="1">
+          <mxGeometry height="50" width="170" x="145" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_s3" parent="lane_sis_s3" style="rhombus;whiteSpace=wrap;html=1;" value="Jadwal tidak&#xa;bentrok?" vertex="1">
+          <mxGeometry height="70" width="110" x="175" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s3_ok" parent="lane_sis_s3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Menyimpan jadwal kelas &amp; menampilkan konfirmasi" vertex="1">
+          <mxGeometry height="55" width="170" x="30" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s3_no" parent="lane_sis_s3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Menolak penyimpanan &amp; menampilkan pesan jadwal bentrok" vertex="1">
+          <mxGeometry height="55" width="175" x="255" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="merge_s3" parent="lane_sis_s3" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="210" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="final_s3" parent="lane_sis_s3" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="215" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="es3_5" edge="1" parent="lane_sis_s3" source="act_s3_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="dec_s3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es3_6" edge="1" parent="lane_sis_s3" source="dec_s3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;fontStyle=1;" target="act_s3_ok" value="[tidak bentrok]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es3_7" edge="1" parent="lane_sis_s3" source="dec_s3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;fontStyle=1;" target="act_s3_no" value="[bentrok]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es3_8" edge="1" parent="lane_sis_s3" source="act_s3_ok" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="merge_s3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es3_9" edge="1" parent="lane_sis_s3" source="act_s3_no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="merge_s3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es3_10" edge="1" parent="lane_sis_s3" source="merge_s3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="final_s3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es3_2" edge="1" parent="pool_sia3" source="act_s3_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="act_s3_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es3_4" edge="1" parent="pool_sia3" source="act_s3_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="act_s3_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

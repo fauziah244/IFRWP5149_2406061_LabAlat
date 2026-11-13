@@ -1,0 +1,112 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="zyR0lwURR7QL2L60FnXb">
+    <mxGraphModel dx="1082" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pool_sia5" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=0;horizontalStack=1;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="780" width="980" x="50" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_admin_s5" parent="pool_sia5" style="swimlane;html=1;startSize=25;horizontal=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="Admin Akademik" vertex="1">
+          <mxGeometry height="780" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="init_s5" parent="lane_admin_s5" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="135" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VNQkSnyDL8SXfPgwpVDk-1" edge="1" parent="lane_admin_s5" source="act_s5_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="act_s5_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s5_1" parent="lane_admin_s5" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Membuka daftar nilai berstatus Siap Disahkan" vertex="1">
+          <mxGeometry height="50" width="170" x="65" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s5_2" parent="lane_admin_s5" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Memeriksa dan mengesahkan nilai" vertex="1">
+          <mxGeometry height="50" width="170" x="65" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="es5_1" edge="1" parent="lane_admin_s5" source="init_s5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="act_s5_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es5_2" edge="1" parent="pool_sia5" source="act_s5_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="act_s5_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es5_4" edge="1" parent="pool_sia5" source="act_s5_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="dec_s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_sis_s5" parent="pool_sia5" style="swimlane;html=1;startSize=25;horizontal=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="Sistem" vertex="1">
+          <mxGeometry height="780" width="680" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s5_3" parent="lane_sis_s5" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Menampilkan rekap nilai mata kuliah" vertex="1">
+          <mxGeometry height="50" width="170" x="175" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_s5" parent="lane_sis_s5" style="rhombus;whiteSpace=wrap;html=1;" value="Data nilai&#xa;valid?" vertex="1">
+          <mxGeometry height="70" width="110" x="205" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s5_no" parent="lane_sis_s5" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Menampilkan pesan nilai belum valid dan mengembalikan ke Dosen" vertex="1">
+          <mxGeometry height="60" width="165" x="480" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s5_siap" parent="lane_sis_s5" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Menyiapkan publikasi hasil studi" vertex="1">
+          <mxGeometry height="50" width="170" x="175" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="fork_s5" parent="lane_sis_s5" style="shape=line;html=1;strokeWidth=4;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="10" width="240" x="140" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s5_terbit" parent="lane_sis_s5" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Menerbitkan KHS pada portal akademik" vertex="1">
+          <mxGeometry height="55" width="140" x="100" y="503" as="geometry" />
+        </mxCell>
+        <mxCell id="act_s5_notif" parent="lane_sis_s5" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Mengirim pemberitahuan hasil studi kepada mahasiswa" vertex="1">
+          <mxGeometry height="55" width="140" x="290" y="503" as="geometry" />
+        </mxCell>
+        <mxCell id="join_s5" parent="lane_sis_s5" style="shape=line;html=1;strokeWidth=4;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="10" width="240" x="140" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="merge_s5" parent="lane_sis_s5" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="542.5" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="final_s5" parent="lane_sis_s5" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="547.5" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="es5_5" edge="1" parent="lane_sis_s5" source="dec_s5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;fontStyle=1;" target="act_s5_siap" value="[valid]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es5_6" edge="1" parent="lane_sis_s5" source="dec_s5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;fontStyle=1;" target="act_s5_no" value="[tidak valid]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es5_7" edge="1" parent="lane_sis_s5" source="act_s5_siap" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="fork_s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es5_10" edge="1" parent="lane_sis_s5" source="act_s5_terbit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;entryX=0.125;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="join_s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es5_13" edge="1" parent="lane_sis_s5" source="act_s5_no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="merge_s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es5_14" edge="1" parent="lane_sis_s5" source="merge_s5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="final_s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K-nY3RnNQmJYAWSj-1l_-3" edge="1" parent="lane_sis_s5" source="fork_s5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;exitX=0.125;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="act_s5_terbit">
+          <mxGeometry relative="1" x="-0.0877" as="geometry">
+            <mxPoint x="175" y="450" as="sourcePoint" />
+            <mxPoint x="170" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-nY3RnNQmJYAWSj-1l_-5" edge="1" parent="lane_sis_s5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;exitX=0.125;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" x="-0.0877" as="geometry">
+            <mxPoint x="360" y="447" as="sourcePoint" />
+            <mxPoint x="360" y="503" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-nY3RnNQmJYAWSj-1l_-6" edge="1" parent="lane_sis_s5" source="act_s5_notif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.913;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="join_s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K-nY3RnNQmJYAWSj-1l_-8" edge="1" parent="lane_sis_s5" source="join_s5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.501;exitY=0.444;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;exitPerimeter=0;" target="merge_s5">
+          <mxGeometry relative="1" x="-0.0545" as="geometry">
+            <Array as="points">
+              <mxPoint x="260.2" y="660" />
+            </Array>
+            <mxPoint x="260.5" y="640" as="sourcePoint" />
+            <mxPoint x="259.5" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
